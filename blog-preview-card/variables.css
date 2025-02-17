@@ -1,0 +1,23 @@
+:root {
+  /** Layouts **/
+  --layout-mobile: 375px;
+  --layout-desktop: 1440px;
+
+  /** Colours **/
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-yellow: hsl(47, 88%, 63%);
+  --clr-gray500: hsl(0, 0%, 42%);
+  --clr-gray950: hsl(0, 0%, 7%);
+
+  /** Typography **/
+  --font-100: 16px;
+  --font-125: 1.125rem;
+  --font-150: 1.5rem;
+  --font-175: 1.75rem;
+  --font-200: 2rem;
+
+  --fw-regular: 500;
+  --fw-bold: 800;
+
+  --ff-base: "Figtree", serif;
+}
