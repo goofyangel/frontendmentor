@@ -46,7 +46,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /** My CSS **/
 body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 5%;
   font-family: var(--ff-base);
+  font-size: var(--font-100);
+  background-color: var(--clr-veryDarkBlueMain);
 }
 
 /** Attribution Styling **/
