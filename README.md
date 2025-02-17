@@ -9,7 +9,7 @@ A few of the later projects are made with react-vite for ease.
  2. [Blog preview card](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) **(Completed)**
  3. [Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) **(Completed)**
  4. [Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) **(Completed)**
- 5. [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
+ 5. [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) **(Completed)**
  6. [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
 
  **Responsive**
