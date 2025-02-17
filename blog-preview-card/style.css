@@ -45,6 +45,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /** My CSS **/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: var(--ff-base);
+  gap: 1rem;
+  margin-top: 5%;
+}
 
 /** Attribution Styling **/
 .attribution { 
