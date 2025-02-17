@@ -90,6 +90,10 @@ body {
   font-weight: var(--fw-bold);
   font-size: var(--font-175);
 }
+.blog-card_title:hover {
+  cursor: pointer;
+  color: var(--clr-yellow);
+}
 .blog-card_description {
   color: var(--clr-gray500);
   font-weight: var(--fw-regular);
