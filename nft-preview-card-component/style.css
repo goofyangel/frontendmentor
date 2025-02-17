@@ -1,0 +1,168 @@
+/** Variable imports **/
+@import url('./variables.css');
+
+/** CSS Reset **/
+/* Source: https://www.joshwcomeau.com/css/custom-css-reset/ */
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/** My CSS **/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 5%;
+  font-family: var(--ff-base);
+  font-size: var(--font-100);
+  background-color: var(--clr-veryDarkBlueMain);
+}
+
+hr {
+  height: 1px;
+  border: 0px;
+  background-color: var(--clr-veryDarkBlueLine);
+}
+
+.nft-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+  padding: 1.75rem;
+  border-radius: 0.75rem;
+  max-width: var(--layout-mobile);
+  background-color: var(--clr-veryDarkBlueCard);
+}
+
+.nft-card_image {
+  position: relative;
+}
+.nft-card_image img {
+  border-radius: 0.5rem;
+}
+.nft-card_image div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(178, 100%, 50%, 0.65);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  opacity: 0;
+}
+.nft-card_image:hover div {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.nft-card_title {
+  font-size: var(--font-175);
+  font-weight: var(--fw-black);
+  color: var(--clr-white);
+}
+.nft-card_title:hover {
+  cursor: pointer;
+  color: var(--clr-cyan);
+}
+.nft-card_description {
+  font-size: var(--font-110);
+  font-weight: var(--fw-regular);
+  color: var(--clr-softBlue);
+}
+
+.nft-card_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nft-card_details div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.nft-card-details_eth {
+  font-weight: var(--fw-bold);
+  color: var(--clr-cyan);
+}
+.nft-card-details_time {
+  font-weight: var(--fw-bold);
+  color: var(--clr-softBlue);
+}
+.nft-card_author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.nft-card_author img {
+  width: 40px;
+  border: 1px solid var(--clr-white);
+  border-radius: 50%;
+}
+.nft-card_author div {
+  display: flex;
+  flex-direction: row;
+  font-weight: var(--fw-regular);
+}
+.nft-card_author p {
+  color: var(--clr-softBlue);
+}
+.nft-card_author span {
+  color: var(--clr-white);
+}
+.nft-card_author:hover span {
+  cursor: pointer;
+  color: var(--clr-cyan);
+}
+
+
+/** Attribution Styling **/
+.attribution { 
+  text-align: center;
+  color: var(--clr-white);
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
