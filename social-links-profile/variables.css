@@ -1,0 +1,25 @@
+:root {
+  /** Layouts **/
+  --layout-mobile: 375px;
+  --layout-desktop: 1440px;
+
+  /** Colours **/
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-green: hsl(75, 94%, 57%);
+  --clr-grey700: hsl(0, 0%, 20%);
+  --clr-grey800: hsl(0, 0%, 12%);
+  --clr-grey900: hsl(0, 0%, 8%);
+
+  /** Typography **/
+  --font-100: 14px;
+  --font-125: 1.125rem;
+  --font-150: 1.5rem;
+  --font-175: 1.75rem;
+  --font-200: 2rem;
+
+  --fw-regular: 400;
+  --fw-bold: 600;
+  --fw-black: 700;
+
+  --ff-base: "Inter", serif;
+}
