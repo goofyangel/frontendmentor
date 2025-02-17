@@ -5,7 +5,7 @@ A few of the later projects are made with react-vite for ease.
 # Project Listings
 
 **Non-Responsive**
- 1. [QR Code Component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+ 1. [QR Code Component **(Completed)**](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
  2. [Blog preview card](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS)
  3. [Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
  4. [Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
