@@ -1,0 +1,27 @@
+:root {
+  /** Layouts **/
+  --layout-mobile: 375px;
+  --layout-desktop: 1440px;
+
+  /** Colours **/
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-softBlue: hsl(215, 51%, 70%);
+  --clr-cyan: hsl(178, 100%, 50%);
+  --clr-veryDarkBlueMain: hsl(217, 54%, 11%);
+  --clr-veryDarkBlueCard: hsl(216, 50%, 16%);
+  --clr-veryDarkBlueLine: hsl(215, 32%, 27%);
+
+  /** Typography **/
+  --font-100: 18px;
+  --font-110: 1.125rem;
+  --font-125: 1.25rem;
+  --font-150: 1.5rem;
+  --font-175: 1.75rem;
+  --font-200: 2rem;
+
+  --fw-regular: 300;
+  --fw-bold: 400;
+  --fw-black: 600;
+
+  --ff-base: "Outfit", serif;
+}
