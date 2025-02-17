@@ -85,6 +85,44 @@ body {
   text-align: center;
 }
 
+.order-card_plan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.25rem;
+  margin-bottom: 0.75rem;
+  border-radius: 10px;
+  background-color: var(--clr-veryPaleBlue);
+}
+.order-card-plan_details {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.order-card-plan_details b {
+  color: var(--clr-darkBlue);
+  font-size: var(--font-100);
+  font-weight: var(--fw-black);
+}
+.order-card-plan_details p {
+  color: var(--clr-desaturatedBlue);
+  font-size: var(--font-100);
+  font-weight: var(--fw-bold);
+}
+.order-card-plan_change {
+  font-size: 0.90rem;
+  color: var(--clr-brightBlue);
+  font-weight: var(--fw-black);
+  text-decoration: underline;
+}
+.order-card-plan_change:hover {
+  color: hsla(245, 75%, 52%, 0.65);
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .button-group {
   display: flex;
   flex-direction: column;
