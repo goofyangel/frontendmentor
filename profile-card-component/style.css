@@ -57,10 +57,14 @@ body {
   overflow: hidden;
 }
 .background-top {
-  display: none;
+  position: absolute;
+  top: -60%;
+  left: -15%;
 }
 .background-bottom {
-  display: none;
+  position: absolute;
+  top: 40%;
+  right: -10%;
 }
 
 hr {
@@ -82,6 +86,7 @@ hr {
 }
 .profile-card_background {
   border-radius: 1rem 1rem 0 0;
+  width: 100%;
 }
 .profile-card_photo {
   position: absolute;
