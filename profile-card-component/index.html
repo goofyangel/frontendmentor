@@ -12,18 +12,35 @@
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <img class="background-top" src="./images/bg-pattern-top.svg" />
+  <img class="background-bottom" src="./images/bg-pattern-bottom.svg" />
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+  <div class="profile-card">
+    <img class="profile-card_background" src="./images/bg-pattern-card.svg" alt="card pattern" />
+    <img class="profile-card_photo" src="./images/image-victor.jpg" alt="victor photo" />
+    <div class="profile-card_info">
+      <div>
+        <span>Victor Crest</span>
+        <p>26</p>
+      </div>
+      <p class="profile-card-info_location">London</p>
+    </div>
+    <hr />
+    <div class="profile-card-socials">
+      <div class="profile-card-socials_detail">
+        <h1>80K</h1>
+        <p>Followers</p>
+      </div>
+      <div class="profile-card-socials_detail">
+        <h1>803K</h1>
+        <p>Likes</p>
+      </div>
+      <div class="profile-card-socials_detail">
+        <h1>1.4K</h1>
+        <p>Photos</p>
+      </div>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/goofyangel">goofyangel</a>.
