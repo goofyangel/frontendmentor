@@ -1,0 +1,162 @@
+/** Variable imports **/
+@import url('./variables.css');
+
+/** CSS Reset **/
+/* Source: https://www.joshwcomeau.com/css/custom-css-reset/ */
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/** My CSS **/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 5%;
+  font-family: var(--ff-base);
+  background-color: var(--clr-paleBlue);
+  background-image: url('./images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+}
+
+.order-card {
+  width: 450px;
+  background-color: white;
+  border-radius: 1rem;
+}
+.order-card_image {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.order-card_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 3rem 2.5rem 3rem;
+  gap: 1.25rem;
+}
+.order-card_title {
+  color: var(--clr-darkBlue);
+  font-size: var(--font-200);
+  font-weight: var(--fw-black);
+}
+.order-card_description {
+  color: var(--clr-desaturatedBlue);
+  font-size: var(--font-100);
+  font-weight: var(--fw-regular);
+  text-align: center;
+}
+
+.order-card_plan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.25rem;
+  margin-bottom: 0.75rem;
+  border-radius: 10px;
+  background-color: var(--clr-veryPaleBlue);
+}
+.order-card-plan_details {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.order-card-plan_details b {
+  color: var(--clr-darkBlue);
+  font-size: var(--font-100);
+  font-weight: var(--fw-black);
+}
+.order-card-plan_details p {
+  color: var(--clr-desaturatedBlue);
+  font-size: var(--font-100);
+  font-weight: var(--fw-bold);
+}
+.order-card-plan_change {
+  font-size: 0.90rem;
+  color: var(--clr-brightBlue);
+  font-weight: var(--fw-black);
+  text-decoration: underline;
+}
+.order-card-plan_change:hover {
+  color: hsla(245, 75%, 52%, 0.65);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+.button-group span {
+  font-size: 0.90rem;
+  font-weight: var(--fw-black);
+  text-align: center;
+  padding: 0.85rem 1rem 0.85rem 1rem;
+  border-radius: 10px;
+}
+.button-group_payment {
+  color: white;
+  background-color: var(--clr-brightBlue);
+  box-shadow: 0px 15px 8px var(--clr-paleBlue);
+}
+.button-group_payment:hover {
+  cursor: pointer;
+  background-color: hsla(245, 75%, 52%, 0.65);
+}
+.button-group_order {
+  color: var(--clr-desaturatedBlue);
+}
+.button-group_order:hover {
+  cursor: pointer;
+  color: var(--clr-darkBlue);
+}
+
+/** Attribution Styling **/
+.attribution { 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
