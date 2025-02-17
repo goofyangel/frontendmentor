@@ -1,0 +1,95 @@
+/** Variable imports **/
+@import url('./variables.css');
+
+/** CSS Reset **/
+/* Source: https://www.joshwcomeau.com/css/custom-css-reset/ */
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/** My CSS **/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--font-100);
+  font-family: var(--ff-base);
+  text-align: center;
+  gap: 1rem;
+  margin-top: 5%;
+  background-color: var(--clr-slate300);
+}
+
+.qr-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1.125rem;
+  max-width: var(--layout-mobile);
+  background-color: var(--clr-white);
+}
+.qr-card_image {
+  border-radius: 0.75rem;
+}
+.qr-card_info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0.75rem 0.75rem 1rem 0.75rem;
+}
+.qr-card_title {
+  font-size: var(--font-150);
+  font-weight: var(--fw-bold);
+  color: var(--clr-slate900);
+}
+.qr-card_description {
+  font-size: var(--font-125);
+  font-weight: var(--fw-regular);
+  color: var(--clr-slate500);
+}
+
+/** Attribution Styling **/
+.attribution { 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
