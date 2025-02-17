@@ -7,7 +7,7 @@ A few of the later projects are made with react-vite for ease.
 **Non-Responsive**
  1. [QR Code Component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) **(Completed)**
  2. [Blog preview card](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) **(Completed)**
- 3. [Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
+ 3. [Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) **(Completed)**
  4. [Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
  5. [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
  6. [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
