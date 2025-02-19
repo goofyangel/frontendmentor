@@ -113,18 +113,13 @@ body {
 
 .stats-image {
   position: relative;
-}
-.stats-image div {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: hsla(277, 64%, 61%, 0.55);
+  background-color: var(--clr-softViolet);
   border-radius: 0 0.75rem 0.75rem 0;
 }
 .stats-image img {
   border-radius: 0rem .75rem 0.75rem 0rem;
+  object-fit: cover;
+  mix-blend-mode: multiply; /* Try different modes */
 }
 
 @media (max-width: 768px) {
@@ -141,9 +136,10 @@ body {
     gap: 2.25rem;
     justify-content: center;
     padding: 2.75rem 1.25rem 2.75rem 1.25rem;
-  }
-  .stats-card_header {
     text-align: center;
+  }
+  .stats-card_title {
+    font-size: var(--font-200);
   }
   .stats-image {
     order: 1;
@@ -151,14 +147,13 @@ body {
   .stats-image img {
     border-radius: 0.75rem 0.75rem 0rem 0rem;
   }
-  .stats-image div {
+  .stats-image {
     border-radius: 0.75rem 0.75rem 0rem 0rem;
   }
   .stats-card_statistics {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     gap: 1.5rem;
   }
 }
