@@ -127,6 +127,42 @@ body {
   border-radius: 0rem .75rem 0.75rem 0rem;
 }
 
+@media (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: 1rem;
+  }
+  .stats-card {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+    justify-content: center;
+    padding: 2.75rem 1.25rem 2.75rem 1.25rem;
+  }
+  .stats-card_header {
+    text-align: center;
+  }
+  .stats-image {
+    order: 1;
+  }
+  .stats-image img {
+    border-radius: 0.75rem 0.75rem 0rem 0rem;
+  }
+  .stats-image div {
+    border-radius: 0.75rem 0.75rem 0rem 0rem;
+  }
+  .stats-card_statistics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+}
+
 /** Attribution Styling **/
 .attribution { 
   text-align: center;
