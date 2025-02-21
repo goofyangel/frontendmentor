@@ -1,0 +1,27 @@
+:root {
+  /** Layouts **/
+  --layout-mobile: 375px;
+  --layout-desktop: 1440px;
+
+  /** Colours **/
+  --clr-brightOrange: hsl(31, 77%, 52%);
+  --clr-darkCyan: hsl(184, 100%, 22%);
+  --clr-veryDarkCyan: hsl(179, 100%, 13%);
+
+  --clr-white: hsl(0, 0%, 100%); /* body */
+  --clr-transparentWhite: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+  --clr-veryLightGray: hsl(0, 0%, 95%); /* background, headings, buttons */
+
+  /** Typography **/
+  --font-100: 15px;
+  --font-125: 1.125rem;
+  --font-150: 1.5rem;
+  --font-175: 1.75rem;
+  --font-200: 2rem;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --ff-base: "Lexend Deca", serif;
+  --ff-accent: "Big Shoulders Display", serif;
+}
