@@ -149,7 +149,8 @@ body {
 
 /** Attribution Styling **/
 .attribution { 
-  text-align: center; 
+  text-align: center;
+  font-size: var(--font-100);
 }
 .attribution a { 
   color: hsl(228, 45%, 44%); 
