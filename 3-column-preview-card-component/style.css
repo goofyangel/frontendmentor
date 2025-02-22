@@ -72,7 +72,7 @@ body {
   display: grid;
   grid-template-rows: auto auto 1fr auto; /* Forces equal spacing */
   height: 100%; /* Makes all sections the same height */
-  row-gap: 2.25rem; /* Correct way to add spacing */
+  row-gap: 1.5rem; /* Correct way to add spacing */
 }
 .preview-card-details_header {
   font-size: var(--font-250);
@@ -87,6 +87,20 @@ body {
   color: var(--clr-transparentWhite);
 }
 .button {
+  margin-top: 2rem;
+  border: none;
+  padding: 8px 5px 8px 5px;
+  width: 125px;
+  border-radius: 1.25rem;
+  border: 2px solid transparent;
+  font-size: var(--font-100);
+  color: var(--text-color);
+}
+.button:hover {
+  cursor: pointer;
+  background: transparent;
+  color: var(--clr-veryLightGray);
+  border: 2px solid var(--clr-veryLightGray);
 }
 
 /* Specific stypes */
@@ -107,12 +121,15 @@ body {
 }
 .button[data-item-type="button-1"] {
   /* Define custom text colour */
+  --text-color: var(--clr-brightOrange);
 }
 .button[data-item-type="button-2"] {
   /* Define custom text colour */
+  --text-color: var(--clr-darkCyan);
 }
 .button[data-item-type="button-3"] {
   /* Define custom text colour */
+  --text-color: var(--clr-veryDarkCyan);
 }
 
 
