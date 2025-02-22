@@ -46,19 +46,75 @@ h1, h2, h3, h4, h5, h6 {
 
 /** My CSS **/
 body {
-  font-size: var(--font-100);
+  font-size: var(--font-125);
   font-family: var(--ff-base);
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2rem;
   margin: 5%;
+  background-color: var(--clr-veryLightGray);
 }
 
 .preview-card {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  max-width: 1000px;
+  max-width: 800px;
 }
+
+/* Generic styles */
+.preview-card_section {
+  background-color: var(--background-colour);
+  border-radius: var(--border-radius);
+  padding: 2.25rem;
+}
+.preview-card_details {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto; /* Forces equal spacing */
+  height: 100%; /* Makes all sections the same height */
+  row-gap: 2.25rem; /* Correct way to add spacing */
+}
+.preview-card-details_header {
+  font-size: var(--font-250);
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-bold);
+  color: var(--clr-veryLightGray);
+  text-transform: uppercase;
+}
+.preview-card-details_description {
+  font-size: var(--font-100);
+  font-weight: var(--fw-regular);
+  color: var(--clr-transparentWhite);
+}
+.button {
+}
+
+/* Specific stypes */
+.preview-card_section[data-item-type = "accent-1"] {
+  /* Define specific variables here for corner-radius and background */
+  --background-colour: var(--clr-brightOrange);
+  --border-radius: 0.5rem 0 0 0.5rem;
+}
+.preview-card_section[data-item-type = "accent-2"] {
+  /* Define specific variables here for corner-radius and background */
+  --background-colour: var(--clr-darkCyan);
+  --border-radius: 0 0 0 0;
+}
+.preview-card_section[data-item-type = "accent-3"] {
+  /* Define specific variables here for corner-radius and background */
+  --background-colour: var(--clr-veryDarkCyan);
+  --border-radius: 0 0.5rem 0.5rem 0;
+}
+.button[data-item-type="button-1"] {
+  /* Define custom text colour */
+}
+.button[data-item-type="button-2"] {
+  /* Define custom text colour */
+}
+.button[data-item-type="button-3"] {
+  /* Define custom text colour */
+}
+
 
 /** Attribution Styling **/
 .attribution { 
