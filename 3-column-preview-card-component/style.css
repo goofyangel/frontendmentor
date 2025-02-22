@@ -62,10 +62,21 @@ body {
   max-width: 800px;
 }
 
+@media (max-width: 600px) {
+  .preview-card {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+  }
+
+  .preview-card_section {
+    border-radius: var(--border-radius-mobile) !important;
+  }
+}
+
 /* Generic styles */
 .preview-card_section {
   background-color: var(--background-colour);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-desktop);
   padding: 2.25rem;
 }
 .preview-card_details {
@@ -107,17 +118,20 @@ body {
 .preview-card_section[data-item-type = "accent-1"] {
   /* Define specific variables here for corner-radius and background */
   --background-colour: var(--clr-brightOrange);
-  --border-radius: 0.5rem 0 0 0.5rem;
+  --border-radius-desktop: 0.5rem 0 0 0.5rem;
+  --border-radius-mobile: 0.5rem 0.5rem 0 0;
 }
 .preview-card_section[data-item-type = "accent-2"] {
   /* Define specific variables here for corner-radius and background */
   --background-colour: var(--clr-darkCyan);
-  --border-radius: 0 0 0 0;
+  --border-radius-desktop: 0 0 0 0;
+  --border-radius-mobile: 0 0 0 0;
 }
 .preview-card_section[data-item-type = "accent-3"] {
   /* Define specific variables here for corner-radius and background */
   --background-colour: var(--clr-veryDarkCyan);
-  --border-radius: 0 0.5rem 0.5rem 0;
+  --border-radius-desktop: 0 0.5rem 0.5rem 0;
+  --border-radius-mobile: 0 0 0.5rem 0.5rem;
 }
 .button[data-item-type="button-1"] {
   /* Define custom text colour */
