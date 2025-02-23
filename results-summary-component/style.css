@@ -173,6 +173,36 @@ button:hover {
   background: linear-gradient(var(--clr-lightSlateBlue), var(--clr-lightRoyalBlue));
 }
 
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .results-summary {
+    grid-template-columns: 1fr;
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    max-width: var(--layout-mobile);
+  }
+
+  .results-section {
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    padding: 1.5rem 2.75rem 2rem 2.75rem;
+  }
+
+  .summary-section {
+    padding: 1.5rem;
+    gap: 1.25rem;
+  }
+
+  button {
+    margin-top: 0.5rem;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
+
 .summary-section_row[data-item-type = "accent-1"] {
   --text-color: hsla(var(--accent-1));
   --background: hsla(var(--accent-1), 0.05);
