@@ -19,7 +19,7 @@ A few of the later projects are made with react-vite for ease.
  9. [Single price grid component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) **(Completed)**
  10. [Recipe page](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) **(Completed)**
  11. [Results summary component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) **(Completed)**
- 12. [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+ 12. [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) **(Completed)**
  13. [Four card feature section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
  14. [Social proof section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
  15. [Bento grid](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
