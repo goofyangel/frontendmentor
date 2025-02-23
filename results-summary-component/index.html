@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <div class="results-summary">
+    <div class="results-section">
+      <h3 class="results-section_header">Your Result</h1>
+      <div class="results-section_score">
+        <h1>76</h1>
+        <p>of 100</p>
+      </div>
+      <div class="results-section-info">
+        <h2 class="results-section_grading">Great</h2>
+        <p class="results-section_description">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+    </div>
+    <div class="summary-section">
+      <h3 class="summary-section_header">Summary</h3>
+      <div class="summary-section_stats">
+        <div class="summary-section_row" data-item-type="accent-1">
+          <div class="summary-section-row_image">
+            <img src="./images/icon-reaction.svg" alt="reaction icon" />
+            <p>Reaction</p>
+          </div>
+          <span>80 <p>/ 100</p></span>
+        </div>
+        <div class="summary-section_row" data-item-type="accent-2">
+          <div class="summary-section-row_image">
+            <img src="./images/icon-memory.svg" alt="memory icon" />
+            <p>Memory</p>
+          </div>
+          <span>92 <p>/ 100</p></span>
+        </div>
+        <div class="summary-section_row" data-item-type="accent-3">
+          <div class="summary-section-row_image">
+            <img src="./images/icon-verbal.svg" alt="verbal icon" />
+            <p>Verbal</p>
+          </div>
+          <span>61 <p>/ 100</p></span>
+        </div>
+        <div class="summary-section_row" data-item-type="accent-4">
+          <div class="summary-section-row_image">
+            <img src="./images/icon-visual.svg" alt="visual icon" />
+            <p>Visual</p>
+          </div>
+          <span>72 <p>/ 100</p></span>
+        </div>
+      </div>
+      <button>Continue</button>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/goofyangel">goofyangel</a>.
+  </div>
+</body>
+</html>

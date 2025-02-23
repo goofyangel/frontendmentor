@@ -1,0 +1,229 @@
+/** Variable imports **/
+@import url('./variables.css');
+
+/** CSS Reset **/
+/* Source: https://www.joshwcomeau.com/css/custom-css-reset/ */
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/** My CSS **/
+body {
+  font-size: var(--font-100);
+  font-family: var(--ff-base);
+  background-color: var(--clr-paleBlue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 5%;
+}
+
+.results-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1.5rem;
+  max-width: 650px;
+  background-color: var(--clr-white);
+}
+.results-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2rem 2.75rem 2rem 2.75rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(var(--clr-lightSlateBlue), var(--clr-lightRoyalBlue));
+}
+.results-section_header {
+  font-size: var(--font-125);
+  font-weight: var(--fw-black);
+  color: var(--clr-lightLavender);
+}
+.results-section_score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(var(--clr-violetBlue), var(--clr-persianBlue));
+}
+.results-section_score h1 {
+  line-height: 1;
+  font-size: 3.5rem;
+  font-weight: var(--fw-black);
+  color: var(--clr-white);
+}
+.results-section_score p {
+  font-size: 0.90rem;
+  font-weight: var(--fw-bold);
+  color: var(--clr-lightLavender);
+}
+.results-section-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  text-align: center;
+}
+.results-section_grading {
+  font-size: var(--font-175);
+  font-weight: var(--fw-bold);
+  color: var(--clr-white);
+}
+.results-section_description {
+  font-size: 0.95rem;
+  font-weight: var(--fw-regular);
+  color: var(--clr-lightLavender);
+}
+
+.summary-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.75rem;
+  padding: 2rem;
+}
+.summary-section_header {
+  font-size: var(--font-125);
+  font-weight: var(--fw-black);
+  color: var(--clr-darkGrayBlue);
+}
+.summary-section_stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.summary-section_row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.65rem;
+  border-radius: 0.5rem;
+  background-color: var(--background);
+}
+.summary-section-row_image {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.summary-section-row_image p {
+  color: var(--text-color);
+  font-size: var(--font-100);
+  font-weight: var(--fw-regular);
+}
+.summary-section_row span {
+  display: flex;
+  gap: 0.5rem;
+  color: var(--clr-darkGrayBlue);
+  font-weight: var(--fw-bold);
+}
+.summary-section_row span p {
+  color: hsla(224, 30%, 27%, 0.5);
+}
+button {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  color: var(--clr-white);
+  background-color: var(--clr-darkGrayBlue);
+}
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(var(--clr-lightSlateBlue), var(--clr-lightRoyalBlue));
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .results-summary {
+    grid-template-columns: 1fr;
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    max-width: var(--layout-mobile);
+  }
+
+  .results-section {
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    padding: 1.5rem 2.75rem 2rem 2.75rem;
+  }
+
+  .summary-section {
+    padding: 1.5rem;
+    gap: 1.25rem;
+  }
+
+  button {
+    margin-top: 0.5rem;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
+
+.summary-section_row[data-item-type = "accent-1"] {
+  --text-color: hsla(var(--accent-1));
+  --background: hsla(var(--accent-1), 0.05);
+}
+.summary-section_row[data-item-type = "accent-2"] {
+  --text-color: hsl(var(--accent-2));
+  --background: hsla(var(--accent-2), 0.05);
+}
+.summary-section_row[data-item-type = "accent-3"] {
+  --text-color: hsla(var(--accent-3));
+  --background: hsla(var(--accent-3), 0.05);
+}
+.summary-section_row[data-item-type = "accent-4"] {
+  --text-color: hsla(var(--accent-4));
+  --background: hsla(var(--accent-4), 0.05);
+}
+
+/** Attribution Styling **/
+.attribution { 
+  text-align: center;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
