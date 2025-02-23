@@ -109,6 +109,10 @@ hr {
   .recipe-card_content {
     padding: 0 1.5rem 2rem 1.5rem;
   }
+
+  .attribution {
+    display: none;
+  }
 }
 
 .preparation-section {
