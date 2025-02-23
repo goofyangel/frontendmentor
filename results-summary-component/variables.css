@@ -4,10 +4,10 @@
   --layout-desktop: 1440px;
 
   /** Colours **/
-  --clr-accent1: 0, 100%, 67%;
-  --clr-accent2: 39, 100%, 56%;
-  --clr-accent3: 166, 100%, 37%;
-  --clr-accent4: 234, 85%, 45%;
+  --accent-1: 0, 100%, 67%;
+  --accent-2: 39, 100%, 56%;
+  --accent-3: 166, 100%, 37%;
+  --accent-4: 234, 85%, 45%;
 
   /** Gradients **/
   --clr-lightSlateBlue: hsl(252, 100%, 67%);
