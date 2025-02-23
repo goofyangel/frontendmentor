@@ -74,17 +74,41 @@ hr {
 .recipe-card img {
   border-radius: 0.75rem;
 }
-.recipe-card_header {
+.recipe-card_content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.recipe-card-content_header {
   font-size: var(--font-225);
   font-family: var(--ff-accent);
   font-weight: var(--fw-regular);
   color: var(--clr-stone900);
 }
-.recipe-card_description {
+.recipe-card-content_description {
   font-size: var(--font-100);
   font-weight: var(--fw-regular);
   color: var(--clr-stone600);
   margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .recipe-card {
+    padding: 0;
+    max-width: var(--layout-mobile);
+    border-radius: 0;
+  }
+  .recipe-card img {
+    border-radius: 0;
+  }
+
+  .recipe-card_content {
+    padding: 0 1.5rem 2rem 1.5rem;
+  }
 }
 
 .preparation-section {
