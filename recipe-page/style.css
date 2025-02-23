@@ -56,6 +56,12 @@ body {
   background-color: var(--clr-stone100);
 }
 
+hr {
+  height: 1px;
+  border: 0px;
+  background-color: var(--clr-stone150);
+}
+
 .recipe-card {
   display: flex;
   flex-direction: column;
@@ -156,6 +162,31 @@ body {
 .instructions-section_list li::marker {
   color: var(--clr-brown800);
   font-weight: var(--fw-bold);
+}
+
+.nutrition-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--clr-stone600);
+}
+.nutrition-section_header {
+  font-size: var(--font-175);
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-regular);
+  color: var(--clr-brown800);
+}
+.nutrition-section_table {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.nutrition-section-table_row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.5rem 0rem 0.5rem 2.5rem;
+}
+.nutrition-section-table_row b {
+  color: var(--clr-brown800);
 }
 
 
