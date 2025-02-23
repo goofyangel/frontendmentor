@@ -1,0 +1,30 @@
+:root {
+  /** Layouts **/
+  --layout-mobile: 375px;
+  --layout-desktop: 1440px;
+
+  /** Colours **/
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-rose50: hsl(330, 100%, 98%);
+  --clr-stone100: hsl(30, 54%, 90%);
+  --clr-stone150: hsl(30, 18%, 87%);
+  --clr-stone600: hsl(30, 10%, 34%);
+  --clr-stone900: hsl(24, 5%, 18%);
+  --clr-brown800: hsl(14, 45%, 36%);
+  --clr-rose800: hsl(332, 51%, 32%);
+
+  /** Typography **/
+  --font-100: 16px;
+  --font-110: 1.125rem;
+  --font-125: 1.25rem;
+  --font-150: 1.5rem;
+  --font-175: 1.75rem;
+  --font-200: 2rem;
+
+  --fw-regular: 400;
+  --fw-bold: 600;
+  --fw-black: 700;
+
+  --ff-base: "Outfit", serif;
+  --ff-accent: "Young Serif", serif;
+}
