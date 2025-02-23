@@ -59,7 +59,7 @@ body {
 .recipe-card {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.25rem;
   padding: 2rem;
   border-radius: 0.75rem;
   max-width: 750px;
@@ -78,6 +78,7 @@ body {
   font-size: var(--font-100);
   font-weight: var(--fw-regular);
   color: var(--clr-stone600);
+  margin-right: 2rem;
 }
 
 .preparation-section {
@@ -106,6 +107,57 @@ body {
   color: var(--clr-rose800);
   font-size: 0.75rem;
 }
+
+.ingredients-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.ingredients-section_header {
+  font-size: var(--font-175);
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-regular);
+  color: var(--clr-brown800);
+}
+.ingredients-section_list {
+  padding: 0 0 0 1.5rem;
+}
+.ingredients-section_list li {
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+  font-size: var(--font-100);
+  color: var(--clr-stone600);
+}
+.ingredients-section_list li::marker {
+  color: var(--clr-brown800);
+  font-size: 0.75rem;
+}
+
+.instructions-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.instructions-section_header {
+  font-size: var(--font-175);
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-regular);
+  color: var(--clr-brown800);
+}
+.instructions-section_list {
+  padding: 0 0 0 1.5rem;
+}
+.instructions-section_list li {
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+  font-size: var(--font-100);
+  color: var(--clr-stone600);
+}
+.instructions-section_list li::marker {
+  color: var(--clr-brown800);
+  font-weight: var(--fw-bold);
+}
+
 
 /** Attribution Styling **/
 .attribution { 
