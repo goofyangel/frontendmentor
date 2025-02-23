@@ -1,0 +1,27 @@
+:root {
+  /** Layouts **/
+  --layout-mobile: 375px;
+  --layout-desktop: 1440px;
+
+  /** Colours **/
+  --clr-green500: hsl(158, 36%, 37%);
+  --clr-green700: hsl(158, 42%, 18%);
+  --clr-black: hsl(212, 21%, 14%);
+  --clr-grey: hsl(228, 12%, 48%);
+  --clr-cream: hsl(30, 38%, 92%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  /** Typography **/
+  --font-100: 14px;
+  --font-110: 1.125rem;
+  --font-125: 1.25rem;
+  --font-150: 1.5rem;
+  --font-175: 1.75rem;
+  --font-200: 2rem;
+
+  --fw-regular: 500;
+  --fw-bold: 700;
+
+  --ff-base: "Fraunces", serif;
+  --ff-accent: "Montserrat", serif;
+}
