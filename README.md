@@ -17,7 +17,7 @@ A few of the later projects are made with react-vite for ease.
  7. [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62) **(Completed)**
  8. [3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) **(Completed)**
  9. [Single price grid component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) **(Completed)**
- 10. [Recipe page](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
+ 10. [Recipe page](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) **(Completed)**
  11. [Results summary component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
  12. [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
  13. [Four card feature section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
