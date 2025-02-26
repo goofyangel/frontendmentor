@@ -104,6 +104,13 @@ hr {
   font-weight: var(--fw-bold);
   color: var(--clr-darkPurple);
 }
+.content-row_header p:hover {
+  cursor: pointer;
+  color: #b02cec; /* Needed to grab this from a colour picker, not given */
+}
+.content-row_header img {
+  cursor: pointer;
+}
 
 .content-row-text_display {
   font-weight: var(--fw-regular);
