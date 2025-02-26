@@ -31,7 +31,7 @@ A few of the later projects are made with react-vite for ease.
 
  **Dynamic**
 
- 21. [FAQ accordion](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz)
+ 21. [FAQ accordion](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz) **(Completed)**
  22. [Interactive rating component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
  23. [Article preview component](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT)
  24. [Base Apparel coming soon page](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)
