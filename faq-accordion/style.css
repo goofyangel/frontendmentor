@@ -122,6 +122,15 @@ hr {
   display: none;
 }
 
+@media (max-width: 700px) {
+  .body {
+    background: url('./images/background-pattern-mobile.svg') no-repeat top var(--clr-lightPink);
+  }
+  .faq-accordion {
+    width: var(--layout-mobile);
+  }
+}
+
 
 /** Attribution Styling **/
 .attribution { 
