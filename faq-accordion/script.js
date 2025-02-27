@@ -15,7 +15,11 @@ function toggleText (button, text) {
 for (let i = 1; i <= 4; i++) {
   const button = document.getElementById(`button-${i}`);
   const text = document.getElementById(`text-${i}`)
+  const header = document.getElementById(`header-${i}`)
   button.addEventListener("click", () => {
+    toggleText(button, text)
+  })
+  header.addEventListener("click", () => {
     toggleText(button, text)
   })
 }
