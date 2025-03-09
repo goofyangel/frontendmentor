@@ -78,6 +78,7 @@ body {
 .huddle {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   gap: 1.5rem;
 }
 
@@ -101,6 +102,47 @@ button {
 }
 .huddle-icon_instagram {
   width: 15px;
+}
+
+@media (max-width: 1000px) {
+  html, body {
+    overflow-y: auto;
+  }
+
+  .huddle-container {
+    padding: 0rem 1rem 0rem 1rem;
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .huddle-logo {
+    width: 50%;
+  }
+
+  .col-layout-left {
+    margin-top: 0rem;
+  }
+
+  .col-layout-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .huddle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .huddle-icons {
+    position: relative;
+  }
+
+  .attribution {
+    display: none;
+  }
 }
 
 /** Attribution Styling **/
