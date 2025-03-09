@@ -149,6 +149,53 @@ button:hover {
   fill: white;
 }
 
+@media (max-width: 1000px) {
+  body {
+    background-image: url('./images/bg-mobile.svg');;
+  }
+
+  .huddle-container {
+    max-width: var(--layout-mobile);
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+    padding: 2rem;
+  }
+
+  .col-layout-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+  }
+
+  .huddle {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .huddle_header {
+    font-size: var(--font-150);
+  }
+
+  .huddle_description {
+    padding: 0;
+  }
+
+  .huddle-icons {
+    position: static;
+  }
+
+  .huddle-logo {
+    max-width: 50%;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
+
 /** Attribution Styling **/
 .attribution { 
   font-family: var(--ff-accent);
