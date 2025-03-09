@@ -60,6 +60,7 @@ body {
 }
 
 .huddle-container {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3rem;
@@ -74,7 +75,20 @@ body {
   row-gap: 4rem;
 }
 
+.huddle {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+button {
+  width: 200px;
+}
+
 .huddle-icons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
   display: flex;
   align-items: center;
   gap: 10px;
