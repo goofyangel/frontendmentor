@@ -53,7 +53,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
   font-family: var(--ff-accent);
   background-color: var(--clr-violet);
   background-image: url('./images/bg-desktop.svg');
@@ -65,14 +64,17 @@ body {
   grid-template-columns: 1fr 1fr;
   column-gap: 3rem;
   align-items: center;
-  width: 90%;
+  padding: 3rem;
 }
 
 .col-layout-left {
-  margin-top: 3rem;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 4rem;
+}
+
+.huddle-logo {
+  max-width: 25%;
 }
 
 .huddle {
@@ -82,14 +84,37 @@ body {
   gap: 1.5rem;
 }
 
+.huddle_header {
+  font-size: var(--font-250);
+  color: var(--clr-white);
+}
+
+.huddle_description {
+  color: var(--clr-white);
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-regular);
+  padding-right: 3rem;
+}
+
 button {
+  border: 0;
   width: 200px;
+  height: 50px;
+  border-radius: 3rem;
+  color: var(--clr-violet);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--clr-soft-magenta);
+  color: var(--clr-white);
 }
 
 .huddle-icons {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 5%;
+  right: 5%;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -104,51 +129,11 @@ button {
   width: 15px;
 }
 
-@media (max-width: 1000px) {
-  html, body {
-    overflow-y: auto;
-  }
-
-  .huddle-container {
-    padding: 0rem 1rem 0rem 1rem;
-    grid-template-columns: 1fr;
-    row-gap: 3rem;
-  }
-
-  .huddle-logo {
-    width: 50%;
-  }
-
-  .col-layout-left {
-    margin-top: 0rem;
-  }
-
-  .col-layout-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .huddle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .huddle-icons {
-    position: relative;
-  }
-
-  .attribution {
-    display: none;
-  }
-}
-
 /** Attribution Styling **/
 .attribution { 
   font-family: var(--ff-accent);
-  text-align: center;
+  color: var(--clr-white);
+  font-size: 0.9rem;
 }
 .attribution a { 
   color: var(--clr-soft-magenta);
