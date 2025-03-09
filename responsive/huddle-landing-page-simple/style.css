@@ -117,16 +117,36 @@ button:hover {
   right: 5%;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
+}
+.huddle-icons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid var(--clr-white);
+  transition: border 0.1s ease, fill 0.1s ease;
+}
+.huddle-icons div:hover {
+  border: 2px solid var(--clr-soft-magenta);
+  cursor: pointer;
+}
+.huddle-icons div:hover svg {
+  fill: var(--clr-soft-magenta);
 }
 .huddle-icon_facebook {
   width: 10px;
+  fill: white;
 }
 .huddle-icon_twitter {
-  width: 20px;
+  width: 15px;
+  fill: white;
 }
 .huddle-icon_instagram {
   width: 15px;
+  fill: white;
 }
 
 /** Attribution Styling **/
