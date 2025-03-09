@@ -18,7 +18,7 @@ A few of the later projects are made with react-vite for ease.
 
 *Basic Layout*
 
- 7. [Huddle landing page with a single introductory section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
+ 7. [Huddle landing page with a single introductory section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) **(Completed)**
  8. [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62) **(Completed)**
  9. [3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) **(Completed)**
  10. [Recipe page](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) **(Completed)**
