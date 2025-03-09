@@ -1,0 +1,207 @@
+/** Variable imports **/
+@import url('./variables.css');
+
+/** CSS Reset **/
+/* Source: https://www.joshwcomeau.com/css/custom-css-reset/ */
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/** My CSS **/
+html {
+  font-size: var(--font-100);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--ff-accent);
+  background-color: var(--clr-violet);
+  background-image: url('./images/bg-desktop.svg');
+}
+
+.huddle-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+  align-items: center;
+  padding: 3rem;
+}
+
+.col-layout-left {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 4rem;
+}
+
+.huddle-logo {
+  max-width: 25%;
+}
+
+.huddle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.huddle_header {
+  font-size: var(--font-250);
+  color: var(--clr-white);
+}
+
+.huddle_description {
+  color: var(--clr-white);
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-regular);
+  padding-right: 3rem;
+}
+
+button {
+  border: 0;
+  width: 200px;
+  height: 50px;
+  border-radius: 3rem;
+  color: var(--clr-violet);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--clr-soft-magenta);
+  color: var(--clr-white);
+}
+
+.huddle-icons {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.huddle-icons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid var(--clr-white);
+  transition: border 0.1s ease, fill 0.1s ease;
+}
+.huddle-icons div:hover {
+  border: 2px solid var(--clr-soft-magenta);
+  cursor: pointer;
+}
+.huddle-icons div:hover svg {
+  fill: var(--clr-soft-magenta);
+}
+.huddle-icon_facebook {
+  width: 10px;
+  fill: white;
+}
+.huddle-icon_twitter {
+  width: 15px;
+  fill: white;
+}
+.huddle-icon_instagram {
+  width: 15px;
+  fill: white;
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-image: url('./images/bg-mobile.svg');;
+  }
+
+  .huddle-container {
+    max-width: var(--layout-mobile);
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+    padding: 2rem;
+  }
+
+  .col-layout-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+  }
+
+  .huddle {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .huddle_header {
+    font-size: var(--font-150);
+  }
+
+  .huddle_description {
+    padding: 0;
+  }
+
+  .huddle-icons {
+    position: static;
+  }
+
+  .huddle-logo {
+    max-width: 50%;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
+
+/** Attribution Styling **/
+.attribution { 
+  font-family: var(--ff-accent);
+  color: var(--clr-white);
+  font-size: 0.9rem;
+}
+.attribution a { 
+  color: var(--clr-soft-magenta);
+}
