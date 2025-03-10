@@ -35,7 +35,7 @@ A few of the later projects are made with react-vite for ease.
  15. [Results summary component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) **(Completed)**
  16. [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) **(Completed)**
  17. [Four card feature section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
- 18. [Fylo data storage component](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n)
+ 18. [Fylo data storage component](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n) **(Completed)**
  19. [Clipboard landing page](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)
  20. [Huddle langing page with alternating feature blocks](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100)
  21. [Huddle landing page with two column layout](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)
