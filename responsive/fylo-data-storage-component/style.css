@@ -53,9 +53,28 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  margin-top: 15%; /** temporary? */
   align-items: center;
   gap: 2rem;
+
   background-color: var(--clr-very-dark-Blue);
+}
+
+.fylo-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 3rem;
+  align-items: end;
+}
+
+.fylo-left-col {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-dark-Blue);
+}
+
+.fylo-right-col {
+  background-color: var(--clr-dark-Blue);
 }
 
 .background {
