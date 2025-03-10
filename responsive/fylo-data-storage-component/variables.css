@@ -1,0 +1,30 @@
+:root {
+  /** Layouts **/
+  --layout-mobile: 375px;
+  --layout-desktop: 1440px;
+
+  /** Colours **/
+  --clr-white: hsl(0, 100%, 100%);
+  --clr-pale-Blue: hsl(243, 100%, 93%);
+  --clr-grayish-Blue: hsl(229, 7%, 55%);
+  --clr-dark-Blue: hsl(228, 56%, 26%);
+  --clr-very-dark-Blue: hsl(229, 57%, 11%);
+
+  /** Gradient **/
+  --clr-gradient1: hsl(6, 100%, 80%);
+  --clr-gradient2: hsl(335, 100%, 65%);
+
+  /** Typography **/
+  --font-100: 14px;
+  --font-110: 1.125rem;
+  --font-125: 1.25rem;
+  --font-150: 1.5rem;
+  --font-175: 1.75rem;
+  --font-200: 2rem;
+  --font-250: 2.5rem;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --ff-base: "Raleway", sans-serif;
+}
