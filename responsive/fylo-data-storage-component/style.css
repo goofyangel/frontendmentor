@@ -69,6 +69,7 @@ body {
   grid-template-columns: auto auto;
   column-gap: 3rem;
   align-items: end;
+  margin-bottom: 8%;
 }
 
 .fylo-left-col {
@@ -214,7 +215,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 1rem;
-    
+  
+    margin-bottom: 0%;
     max-width: var(--layout-mobile);
   }
 
@@ -237,6 +239,10 @@ body {
 
   .sharp-tail {
     display: none;
+  }
+
+  .background {
+    background-image: url('./images/bg-mobile.png');
   }
 }
 
