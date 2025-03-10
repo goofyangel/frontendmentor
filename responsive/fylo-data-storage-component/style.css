@@ -50,10 +50,32 @@ html {
   font-family: var(--ff-base);
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--clr-very-dark-Blue);
+}
+
+.background {
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  background-image: url('./images/bg-desktop.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+}
+
 /** Attribution Styling **/
 .attribution { 
-  color: ''
+  color: var(--clr-white);
 }
 .attribution a { 
-  color: ''
+  color: var(--clr-gradient2);
 }
