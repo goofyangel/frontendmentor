@@ -205,6 +205,41 @@ body {
   background-size: 100% auto;
 }
 
+@media (max-width: 768px) {
+  .attribution {
+    display: none;
+  }
+
+  .fylo-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    
+    max-width: var(--layout-mobile);
+  }
+
+  .fylo-right-col, .fylo-left-col {
+    width: auto;
+  }
+
+  .fylo-right-col {
+    padding: 2.25rem 2.25rem 4rem 2.25rem;
+  }
+
+  .remaining-container {
+    top: 140px;
+    left: 50px;
+  }
+
+  .remaining-data {
+    gap: 0rem;
+  }
+
+  .sharp-tail {
+    display: none;
+  }
+}
+
 /** Attribution Styling **/
 .attribution { 
   color: var(--clr-white);
