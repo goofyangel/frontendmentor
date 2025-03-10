@@ -101,12 +101,14 @@ body {
 }
 
 .fylo-right-col {
+  position: relative;
+  width: 500px;
+
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 2.25rem;
 
-  width: 500px;
   border-radius: 0.75rem;
   color: var(--clr-pale-Blue);
   background-color: var(--clr-dark-Blue);
@@ -131,7 +133,7 @@ body {
   width: 75%;
   height: 16px;
   border-radius: 2rem;
-  background: linear-gradient(var(--clr-gradient1), var(--clr-gradient2));
+  background: linear-gradient(to right, var(--clr-gradient1), var(--clr-gradient2));
 }
 .white-ball {
   width: 13px;
@@ -143,6 +145,49 @@ body {
   display: flex;
   justify-content: space-between;
   font-weight: var(--fw-bold);
+}
+
+.remaining-container {
+  display: flex;
+  flex-direction: column;
+  
+  position: absolute;
+  bottom: 150px;
+  right: 2rem;
+  width: 200px;
+}
+
+.remaining-data {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+
+  border-radius: 1rem;
+  background-color: var(--clr-white);
+}
+.remaining-data span {
+  font-size: var(--font-250);
+  font-weight: var(--fw-bold);
+  color: var(--clr-very-dark-Blue);
+}
+.remaining-data p {
+  font-size: var(--font-100);
+  font-weight: var(--fw-bold);
+  color: var(--clr-grayish-Blue);
+}
+
+.sharp-tail {
+  clip-path: polygon(0 0, 100% 100%, 0 100%);
+  transform: rotate(180deg);
+  background-color: var(--clr-white);
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 60px;
+  right: 0;
 }
 
 .background {
