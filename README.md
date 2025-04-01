@@ -81,39 +81,40 @@ A few of the later projects are made with react-vite for ease.
  46. [Time tracking dashboard](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw)
  47. [Product list with cart](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d)
  48. [Expenses chart component](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt)
+ 49. [Browser extension manager UI](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp)
 
 
  **React-based**
  
  *Advanced Layouts*
 
- 49. [Notifications page](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC)
- 50. [Crowdfunding product page](https://www.frontendmentor.io/challenges/crowdfunding-product-page-7uvcZe7ZR)
- 51. [Room homepage](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq)
- 52. [Easybank landing page](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
- 53. [Manage landing page](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5)
- 54. [E-commerce product page](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6)
- 55. [Space tourism multi-page website](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3)
- 56. [Bookmark landing page](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158)
+ 50. [Notifications page](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC)
+ 51. [Crowdfunding product page](https://www.frontendmentor.io/challenges/crowdfunding-product-page-7uvcZe7ZR)
+ 52. [Room homepage](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq)
+ 53. [Easybank landing page](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
+ 54. [Manage landing page](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5)
+ 55. [E-commerce product page](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6)
+ 56. [Space tourism multi-page website](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3)
+ 57. [Bookmark landing page](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158)
 
  *Apps*
 
- 57. [Conference ticket generator](https://www.frontendmentor.io/challenges/conference-ticket-generator-oq5gFIU12w)
- 58. [Age calculator app](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q)
- 59. [Job listings with filtering](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt)
- 60. [Launch countdown timer](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-)
- 61. [Calculator app](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29)
- 62. [Todo app](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW)
- 63. [Interactive comments section](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9)
- 64. [Multi-step form](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ)
- 65. [Rock paper scissors](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH)
+ 58. [Conference ticket generator](https://www.frontendmentor.io/challenges/conference-ticket-generator-oq5gFIU12w)
+ 59. [Age calculator app](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q)
+ 60. [Job listings with filtering](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt)
+ 61. [Launch countdown timer](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-)
+ 62. [Calculator app](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29)
+ 63. [Todo app](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW)
+ 64. [Interactive comments section](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9)
+ 65. [Multi-step form](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ)
+ 66. [Rock paper scissors](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH)
 
  *APIs*
 
- 66. [Advice generator app](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
- 67. [IP Address Tracker](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0)
- 68. [URL shortening API landing page](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)
- 69. [REST Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
+ 67. [Advice generator app](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
+ 68. [IP Address Tracker](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0)
+ 69. [URL shortening API landing page](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)
+ 70. [REST Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
 
 
 
